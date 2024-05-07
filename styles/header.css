@@ -1,0 +1,106 @@
+/* TRAZENDO A FONTE */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(font/Montserrat-VariableFont_wght.ttf);
+}
+
+/* ESTILIZANDO O HEADER */
+
+.cabecalho{
+    background-color: #590829;
+    height: 35px;
+    display: flex;
+    padding: 1.2rem 1.2rem;
+    justify-content: space-between;
+    position: sticky;
+    align-items: center;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.1rem;
+}
+
+.cabecalho a:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.3);
+    opacity: 0.85;
+}
+
+.cabecalho a:active{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.cabecalho_logo{
+    align-items: center;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+
+.cabecalho_menu_lista{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho_menu_lista_item{
+    display: flex;
+    padding-right: center;
+    padding: 30px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.cabecalho_menu_lista_item_icone{
+    width: 2.3rem;
+}
+
+.cabecalho_botoes{
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+}
+
+.cabecalho_botoes_item{
+    padding: 0.8rem 0.8rem;
+    width: 2.5rem;
+}
+
+.cabecalho_botoes_item:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+}
+
+.produto_nome, .produto_preco{
+    color: #590829;
+}
+
+.produto_nome {
+    width: 250px; 
+    word-wrap: break-word; 
+}
+
+.produto {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    padding: 0.5rem 0.5rem;
+    margin: 2rem 2rem;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #590829;
+    border-width: 2px;
+}
+
+.produto:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgba(89, 8, 41, 0.3);
+}
+
+

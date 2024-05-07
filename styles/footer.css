@@ -1,0 +1,46 @@
+/* ESTILIZANDO O RODAPE */
+
+.rodape {
+    padding: 2rem;
+    background-color: #590829;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.rodape_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape_column_header {
+    margin-bottom: 0.25rem;
+}
+
+.rodape_column_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.rodape_column_top {
+    margin-bottom: 0.25rem; 
+}
+
+.rodape_column_body_texto {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.25rem;     
+    margin-left: 0.5rem;
+}
+
+.monograma_rodape{
+    width: 150px;
+    margin-left: 100px;
+}
+
+.rodape_column{
+    margin-right: 100px;
+}

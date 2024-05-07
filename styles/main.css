@@ -1,0 +1,78 @@
+/* TIRANDO A BORDA */
+
+html, body {
+    margin: 0;
+}
+
+/* TRAZENDO A FONTE */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(font/Montserrat-VariableFont_wght.ttf);
+}
+
+/* ESTILIZANDO O MAIN */
+
+main{
+    background-color: #F3EDEF;
+}
+
+.main_home {
+    display: flex;
+    padding: 2rem 2rem;
+    align-items: flex-start; /* Alterando align-items para flex-start */
+}
+
+.main_home a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 1rem 4rem;
+    border-radius: 24px;
+    background: #590829;
+    transition: all .3s;
+    text-align: left;
+}
+
+.main_home_E {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding: 3rem 2rem 2rem; 
+    width: 60%;
+    align-items: center;
+}
+
+.main_home_texto{
+    font-family: 'Montserrat', sans-serif;
+    color: #380024;
+    align-items: left;
+    font-size: 1.55rem;
+    padding: 1.2rem;
+    text-align: justify;
+}
+
+.main_home_D_foto{
+    border-radius: 30px;
+    width: 148%;
+    margin-left: 10px;
+}
+
+.main_home_logo_titulo {
+    margin-left: -36rem; 
+    margin-top: -50px;
+}
+
+.main_home_ancora{
+    margin-top: -5px;
+}   
+
+.main_home_ancora:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.3);
+    opacity: 0.85;
+}
+
