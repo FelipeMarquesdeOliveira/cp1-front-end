@@ -49,23 +49,19 @@ h1 {
     line-height: 1.5; 
 }
 
-.bottom_produtos{
-    background-color: #F3EDEF;
-}
 
 .bottom_produtos {
     background-color: #F3EDEF;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
-    text-align: center;
+    flex-wrap: wrap;
     gap: 40px;
 }
 
 
 .produto_imagem_foto{
-    width: 270px;
+    width: 100%;
+    height: auto;
 }
 
 .h1_destaques{
@@ -79,16 +75,18 @@ h1 {
     text-align: center;
 }
 
-.produto{
+.produto {
+    max-width: 300px; /* Defina a largura máxima desejada */
     display: flex;
     flex-direction: column;
-    padding: 0.5rem 0.5rem;
-    margin: 2rem 2rem;
-    border: 1px solid ;
+    align-items: center;
+    text-align: center;
+    padding: 20px; /* Ajuste conforme necessário */
+    margin-bottom: 40px; /* Adicione uma margem inferior para separar os produtos */
+    border: 2px solid #590829; /* Mude para a cor desejada */
     border-radius: 20px;
-    border-color: #590829;
-    border-width: 2px;
 }
+
 
 .produto:hover{
     cursor:pointer;
