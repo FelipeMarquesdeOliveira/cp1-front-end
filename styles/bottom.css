@@ -1,3 +1,5 @@
+@import url('styles.css');
+
 /* ESTILIZANDO O BOTTOM */
 *{
     font-family: 'Montserrat', sans-serif;
@@ -11,7 +13,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #C4A0B0;
+    background-color: var(--cor-rosa-claro);
     padding-right: 80px;
     padding-left: 80px;
     height: 170px;
@@ -23,14 +25,14 @@ h1 {
 
 .bottom_banner_column:hover {
     transition: all .2s;
-    background-color: #F3EDEF;
+    background-color: var(--cor-rosa-muito-claro);
     border-radius: 30px;
     cursor: pointer;
-    color: #590829;
+    color: var(--cor-vinho-escuro);
 }
 
 .bottom_banner_column:hover .bottom_banner_column_texto {
-    color: #590829;
+    color: var(--cor-vinho-escuro);
 }
 
 
@@ -42,7 +44,7 @@ h1 {
 
 .bottom_banner_column_texto {
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: var(--cor-branca);
     text-align: center;
     margin: 5px auto; 
     width: 80%; 
@@ -51,7 +53,7 @@ h1 {
 
 
 .bottom_produtos {
-    background-color: #F3EDEF;
+    background-color: var(--cor-rosa-muito-claro);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -65,8 +67,8 @@ h1 {
 }
 
 .h1_destaques{
-    background-color: #F3EDEF;
-    color: #590829;
+    background-color: var(--cor-rosa-muito-claro);
+    color: var(--cor-vinho-escuro);
     font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
     padding-top: 4rem;
@@ -76,14 +78,14 @@ h1 {
 }
 
 .produto {
-    max-width: 300px; /* Defina a largura máxima desejada */
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 20px; /* Ajuste conforme necessário */
-    margin-bottom: 40px; /* Adicione uma margem inferior para separar os produtos */
-    border: 2px solid #590829; /* Mude para a cor desejada */
+    padding: 20px;
+    margin-bottom: 40px; 
+    border: 2px solid var(--cor-vinho-escuro); 
     border-radius: 20px;
 }
 
@@ -114,8 +116,8 @@ h1 {
     width: 250px;
     padding: 0.8rem;
     border-radius: 24px;
-    background: #590829;
-    color: white;
+    background: var(--cor-vinho-escuro);
+    color: var(--cor-branca);
     transition: all .3s;
  
     margin-bottom: 5px;

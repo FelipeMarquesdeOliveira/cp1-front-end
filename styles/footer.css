@@ -1,11 +1,13 @@
+@import url('styles.css');
+
 /* ESTILIZANDO O RODAPE */
 
 .rodape {
-    padding: 2rem;
-    background-color: #590829;
+    padding: 1rem;
+    background-color: var(--cor-vinho-escuro);
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: var(--cor-branca);
 }
 
 .rodape_column {
@@ -30,15 +32,17 @@
 }
 
 .rodape_column_body_texto {
-    color: white;
+    color: var(--cor-branca);
     text-decoration: none;
     margin-bottom: 0.25rem;     
     margin-left: 0.5rem;
 }
 
 .monograma_rodape{
-    width: 150px;
+    width: 110px;
     margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: -3;
 }
 
 .rodape_column{

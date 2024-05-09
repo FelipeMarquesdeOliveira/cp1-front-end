@@ -1,3 +1,5 @@
+@import url('styles.css');
+
 /* TRAZENDO A FONTE */
 
 @font-face {
@@ -8,7 +10,7 @@
 /* ESTILIZANDO O HEADER */
 
 .cabecalho{
-    background-color: #590829;
+    background-color: var(--cor-vinho-escuro);
     height: 35px;
     display: flex;
     padding: 1.2rem 1.2rem;
@@ -19,7 +21,7 @@
 
 .cabecalho a{
     text-decoration: none;
-    color: white;
+    color: var(--cor-branca);
     font-family: 'Montserrat', sans-serif;
     padding: 0.1rem;
 }
@@ -77,7 +79,7 @@
 }
 
 .produto_nome, .produto_preco{
-    color: #590829;
+    color: var(--cor-vinho-escuro);
 }
 
 .produto_nome {
@@ -94,7 +96,7 @@
     margin: 2rem 2rem;
     border: 1px solid;
     border-radius: 20px;
-    border-color: #590829;
+    border-color: var(--cor-vinho-escuro);
     border-width: 2px;
 }
 
