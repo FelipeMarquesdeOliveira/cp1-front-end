@@ -168,13 +168,13 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 110vh;
-    gap: 110px;
+    height: 121vh;
+    gap: 121px;
 }
 
 .img_contatos {
-    width: 550px;
-    border-radius: 33px;
+    width: 560px;
+    border-radius: 36.3px;
 }
 
 .container {
@@ -185,54 +185,54 @@ main{
 
 .titulo_main {
     color: var(--cor-vinho-escuro);
-    margin-top: 22px;
-    margin-bottom: 22px;
-    font-size: 27.5px;
-    margin-top: -33px;
-    margin-bottom: 66px;
+    margin-top: 24.2px;
+    margin-bottom: 24.2px;
+    font-size: 30.25px;
+    margin-top: -36.3px;
+    margin-bottom: 72.6px;
 }
 
 .shadowbox {
-    width: 550px;
-    padding: 22px;
+    width: 605px;
+    padding: 24.2px;
     background-color: var(--cor-rosa-claro);
-    border-radius: 33px;
+    border-radius: 36.3px;
     color: var(--cor-vinho-escuro);
-    margin-top: -44px;
+    margin-top: -48.4px;
 }
 
 .shadowbox div {
-    margin-bottom: 22px;
+    margin-bottom: 24.2px;
 }
 
 input, button {
-    width: 110%;
-    height: 44px;
-    border-radius: 33px;
+    width: 121%;
+    height: 48.4px;
+    border-radius: 36.3px;
     border: none;
-    padding: 5.5px;
-    margin-top: 5.5px;
+    padding: 6.05px;
+    margin-top: 6.05px;
 }
 
 .button {
-    border-radius: 44px;
+    border-radius: 48.4px;
     background-color: var(--cor-vinho-escuro);
     color: white;
     cursor: pointer;
-    margin-top: 33px;
-    width: 200px;
-    margin-left: 184px;
+    margin-top: 36.3px;
+    width: 220px;
+    margin-left: 202.4px;
 }
 
 .mensagem{
-    height: 154px;
-    width: 539px;
+    height: 169.4px;
+    width: 592.9px;
     font-weight: bold;
 }
 
 .input_nome, .input_email{
-    height: 77px;
-    width: 539px;
+    height: 84.7px;
+    width: 592.9px;
     font-weight: bold;
 }
 
@@ -241,5 +241,5 @@ input, button {
 .mensagem::placeholder {
     text-align: center;
     color: var(--cor-rosa-muito-claro);
-    font-size: 20px;
+    font-size: 22px;
 }
