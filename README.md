@@ -14,7 +14,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## Visualizar o Site
 
-Você pode visualizar o site completo clicando [aqui](https://github.com/FelipeMarquesdeOliveira/cp1-front-end).
+Você pode visualizar o site completo clicando [aqui](https://felipemarquesdeoliveira.github.io/cp1-front-end/index.html).
 
 ## Como Contribuir
 
